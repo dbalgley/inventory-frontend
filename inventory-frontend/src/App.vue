@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import AxiosTest from './components/AxiosTest.vue'
+import AxiosTest2 from './components/AxiosTest2.vue'
 </script>
 
 <template>
@@ -8,7 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Butt!" />
+      <AxiosTest2/>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
