@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import AxiosTest from './components/AxiosTest.vue'
 import AxiosTest2 from './components/AxiosTest2.vue'
+import BinList from './components/BinList.vue'
 </script>
 
 <template>
@@ -12,11 +12,11 @@ import AxiosTest2 from './components/AxiosTest2.vue'
     <div class="wrapper">
       <HelloWorld msg="Butt!" />
       <AxiosTest2/>
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+      <BinList :location-id=1></BinList>
     </div>
   </header>
 
